@@ -1,0 +1,36 @@
+.info_use {
+    display: flex;
+    align-items: center;
+}
+.info_use img {
+    margin-right: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+@media only screen and (min-width:992px) {
+    nav a.sidenav-trigger {
+        display: block;
+        float:right;
+    }
+    nav a.sidenav-trigger
+}
+@media only screen and (max-width:991px) {
+    td .btn {
+        font-size: .5rem;
+     }
+     table {
+         font-size: .8rem;
+     }
+     .info_use img {
+        margin-right: 0;
+    }
+    nav a.sidenav-trigger {
+        position: absolute;
+        right: 0;
+    }
+
+}

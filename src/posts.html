@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/posts.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <title>Posts</title>
+</head>
+<body>
+    <header>
+
+        <nav class="blue">
+            <div class="nav-wrapper container">
+                <a href="../index.html" class="brand-logo">MyAdmin</a>
+                <a href="#slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="../index.html">Dashboard</a></li>
+                    <li><a href="posts.html">Posts</a></li>
+                    <li><a href="categories.html">Catégories</a></li>
+                    <li><a href="comments.html">Comments</a></li>
+                    <li><a href="users.html">Users</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul id="slide-out" class="sidenav">
+            <li><div class="user-view">
+              <div class="background">
+                <img src="../images/imd_dash.jpg">
+              </div>
+              <a href="#"><img class="circle" src="../images/profil1.png"></a>
+              <a href="#"><span class="white-text name">Souphiane Saïdou</span></a>
+              <a href="#"><span class="white-text email">s.saidou@codeloccol.org</span></a>
+            </div></li>
+            <li><a href="../index.html"><i class="material-icons">dashboard</i>Dashboard</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="categories.html">Catégories</a></li>
+            <li><a href="comments.html">Comments</a></li>
+            <li><a href="users.html">Users</a></li>
+            <li><a href="#" class="disabled grey-text" >Accounnt Controls</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+    </header>
+
+    <main>
+        <section class="section">
+           <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-title"><h4 class="flow-text">Posts</h4></div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Title</th>
+                                        <th>Category</th>
+                                        <th>Date created</th>
+                                    </tr>
+                                    <tr class="grey lighten-3">
+                                        <td>Post One</td>
+                                        <td>Web Development</td>
+                                        <td>Oct 1, 2019</td>
+                                        <td>
+                                            <a href="#" class="waves-effect waves-light btn blue lighten-1">DETAILS</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Post Two</td>
+                                        <td>Graphic Design</td>
+                                        <td>Oct 2, 2019</td>
+                                        <td>
+                                            <a href="#" class="waves-effect waves-light btn blue lighten-1">DETAILS</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="grey lighten-3">
+                                        <td>Post Three</td>
+                                        <td>Web Development</td>
+                                        <td>Oct 3, 2019</td>
+                                        <td>
+                                            <a href="#" class="waves-effect waves-light btn blue lighten-1">DETAILS</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Post Four</td>
+                                        <td>Tech Gadgets</td>
+                                        <td>Oct 4, 2019</td>
+                                        <td>
+                                            <a href="#" class="waves-effect waves-light btn blue lighten-1">DETAILS</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="grey lighten-3">
+                                        <td>Post Five</td>
+                                        <td>Graphic Design</td>
+                                        <td>Oct 5, 2019</td>
+                                        <td>
+                                            <a href="#" class="waves-effect waves-light btn blue lighten-1">DETAILS</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Post Six</td>
+                                        <td>Web Development</td>
+                                        <td>Oct 6, 2019</td>
+                                        <td>
+                                            <a href="#" class="waves-effect waves-light btn blue lighten-1">DETAILS</a>
+                                        </td>
+                                    </tr>
+                                </thead>
+                            </table>
+
+                            <ul class="pagination">
+                                <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                                <li class="active blue lighten-1"><a href="#">1</a></li>
+                                <li class="waves-effect"><a href="#">2</a></li>
+                                <li class="waves-effect"><a href="#">3</a></li>
+                                <li class="waves-effect"><a href="#">4</a></li>
+                                <li class="waves-effect"><a href="#">5</a></li>
+                                <li class="disabled"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </section>
+
+
+    </main>
+
+     <footer class="blue" style="padding: 15px 0;">
+        <div class="footer-copyright white-text center-align">
+            <p>MyAdmin Codeloccol Copyright @ 2020</p>
+        </div>
+    </footer>
+
+    <div class="button floaton">
+
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large red">
+                <i class="large material-icons">add</i>
+            </a>
+            <ul>
+                <li><a href="#edit" class="btn-floating blue modal-trigger"><i class="material-icons">mode_edit</i></a>
+                </li>
+                <li><a href="#catego_modal" class="btn-floating blue modal-trigger"><i
+                            class="material-icons">folder</i></a></li>
+                <li><a href="#user_modal" class="btn-floating blue modal-trigger"><i
+                            class="material-icons">people</i></a></li>
+            </ul>
+        </div>
+
+        <div id="edit" class="modal">
+            <div class="modal-content">
+                <h4>Add Post</h4>
+                <div class="row">
+                    <div class="input-field">
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Title</label>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <select>
+                        <option value="" disabled selected>Select option</option>
+                        <option value="1">Web Developper</option>
+                        <option value="2">Designer</option>
+                        <option value="3">Game Developper</option>
+                    </select>
+                    <label>Category</label>
+                </div>
+                <textarea name="" id="editor" cols="30" rows="10"></textarea>
+            </div>
+            <div class="modal-footer">
+                <a class="waves-effect waves-light blue btn" style="margin: 0 20px 40px 0;">SUBMIT</a>
+            </div>
+        </div>
+
+        <div id="catego_modal" class="modal">
+            <div class="modal-content">
+                <h4>Add Category</h4>
+                <div class="row">
+                    <div class="input-field">
+                        <input id="name_title" type="text" class="validate">
+                        <label for="name_title">Title</label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="waves-effect waves-light blue btn" style="margin: 0 20px 40px 0;">SUBMIT</a>
+            </div>
+        </div>
+
+        <div id="user_modal" class="modal">
+            <div class="modal-content">
+                <h4>Add User</h4>
+                <div class="row">
+                    <div class="input-field">
+                        <input id="use_name" type="text" class="validate">
+                        <label for="use_name">Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field">
+                        <input id="use_email" type="email" class="validate">
+                        <label for="use_email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field">
+                        <input id="use_pass" type="password" class="validate">
+                        <label for="use_pass">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field">
+                        <input id="use_pass2" type="password" class="validate">
+                        <label for="use_pass2">Confirm password</label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="waves-effect waves-light blue btn" style="margin: 0 20px 40px 0;">SUBMIT</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.3.4.1.js"></script>
+
+    <script src="../js/materialize.min.js"></script>
+
+    <script src="../plugin js/ckeditor/ckeditor.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.fixed-action-btn').floatingActionButton();
+            $('.modal').modal();
+            $('select').formSelect();
+        });
+
+    </script>
+    <script>
+        
+        CKEDITOR.replace('editor');
+    </script>
+</body>
+</body>
+</html>
